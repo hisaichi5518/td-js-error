@@ -1,7 +1,7 @@
 window.onerror = (em) ->
   td = new Treasure
-    database: 'test_js_error'
+    database: 'test_myapp'
     writeKey: '...'
 
-  td.trackEvent 'js_error',
+  td.trackEvent 'js_errors',
     message: em
