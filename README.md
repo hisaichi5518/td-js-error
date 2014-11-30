@@ -1,0 +1,1 @@
+# TreasureDataにJSのエラーを送る
